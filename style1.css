@@ -1,0 +1,58 @@
+*{
+margin:0px;
+padding:0px;
+}
+:root{
+--primary:#e55d87;
+--secondary:#5fc3e4;
+}
+
+body{
+background:linear-gradient(100deg, var(--primary),var(--secondary));
+background-size:cover;
+background-position: -1370px 0px;
+}
+fieldset{
+width: 100px;
+margin: 20px auto 10px auto;
+background-color:rgba(0,0,0,0.5);
+border-radius: 10px;
+box-shadow:2px 2px 15px rgba(0,0,0,0.3);
+color:#fff;
+padding: 60px 0px 60px;
+position: center;
+transform:translate(0%,30%);
+}
+tr{
+font-style: italic;
+color: white;
+}
+
+.effect input{
+padding:5;
+border-radius:15px;
+border-color:white;
+color:#555;
+transform:translate(120%,120%);
+}
+.pass a{
+text-align:center;
+color:white;
+font-size:10px;
+}
+.email i{
+transform:translate(950%,110%);
+color:black;
+}
+.lock i{
+color:black;
+transform:translate(1103%,110%);
+}
+.name i{
+color:black;
+transform:translate(1103%,110%);
+}
+
+
+
+
